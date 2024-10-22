@@ -1,0 +1,28 @@
+.nav{
+    background-color: #343a40;
+    padding: 0px 100px;
+}
+.banner{
+    margin: 20px 100px;
+}
+.cards{
+    margin: 20px 100px;
+}
+footer{
+    background-color: #343a40;
+}
+.card-img-custom {
+    height: 200px; 
+    object-fit: cover; 
+}
+@media screen and (max-width: 420px) {
+    .nav{
+        padding: 0;
+}
+.banner{
+    margin: 0;
+}
+.cards{
+    gap: 20px;
+}
+}
